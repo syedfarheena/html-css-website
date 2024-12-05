@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background: #ff6f61;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section#register {
+    background: #f4f4f4;
+    padding: 20px;
+  }
+  
+  section#register form {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  section#register form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  section#register form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  section#register form button {
+    background: #ff6f61;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
